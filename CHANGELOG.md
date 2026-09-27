@@ -1,5 +1,10 @@
 # ComfyProfiles Changelog
 
+## 0.5 Beta – 28.09.2026
+- Added ComfyQoL and ComfyMaps to Suite profile coordination.
+- ComfyData and ComfyDataVault remain independent background services.
+
+
 ## 0.4 Beta – 28.09.2026
 - Registered ComfyProfiles in Blizzard's native AddOns settings list with a button to open the full Comfy settings window.
 
