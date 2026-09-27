@@ -1,5 +1,9 @@
 # ComfyProfiles Changelog
 
+## 0.6 Beta – 28.09.2026
+- Added ComfyBattleText to Suite profile coordination.
+
+
 ## 0.5 Beta – 28.09.2026
 - Added ComfyQoL and ComfyMaps to Suite profile coordination.
 - ComfyData and ComfyDataVault remain independent background services.
