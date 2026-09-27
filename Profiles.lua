@@ -1,6 +1,6 @@
 ComfyProfiles=ComfyProfiles or {}
 local A=ComfyProfiles
-A.suiteAddons={"ComfyHub","ComfyOnPoint","ComfyBar","ComfyCC","ComfyMacro","ComfyEnemyBar","ComfyPanel","ComfyBag","ComfyMog","ComfyXP","ComfyKey","ComfyGatherer","ComfyKills"}
+A.suiteAddons={"ComfyHub","ComfyOnPoint","ComfyBar","ComfyCC","ComfyMacro","ComfyEnemyBar","ComfyPanel","ComfyBag","ComfyMog","ComfyXP","ComfyKey","ComfyQoL","ComfyMaps","ComfyGatherer","ComfyKills"}
 local function Provider(name) local a=rawget(_G,name); if type(a)=="table" and type(a.GetActiveStorageProfileKey)=="function" and type(a.SetActiveStorageProfile)=="function" then return a end end
 function A:CaptureSuiteState() local out={} for _,name in ipairs(self.suiteAddons) do local p=Provider(name); if p then local k=p:GetActiveStorageProfileKey(); out[name]={key=k,label=type(p.GetStorageProfileLabel)=="function" and p:GetStorageProfileLabel(k) or tostring(k)} end end return out end
 function A:GetPresetNames() local list={} for n in pairs(self.db.suite.presets or {}) do list[#list+1]={value=n,text=n} end table.sort(list,function(a,b) return a.text:lower()<b.text:lower() end); return list end
