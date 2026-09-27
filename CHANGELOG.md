@@ -1,5 +1,9 @@
 # ComfyProfiles Changelog
 
+## 0.4 Beta – 28.09.2026
+- Registered ComfyProfiles in Blizzard's native AddOns settings list with a button to open the full Comfy settings window.
+
+
 ## 0.3 Beta – 28.09.2026
 - Added ComfyGatherer and ComfyKills to Suite profile coordination.
 - ComfyData and ComfyDataVault remain independent background services and are intentionally not profile-switched.
