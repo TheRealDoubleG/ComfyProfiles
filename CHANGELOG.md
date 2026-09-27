@@ -1,5 +1,10 @@
 # ComfyProfiles Changelog
 
+## 0.3 Beta – 28.09.2026
+- Added ComfyGatherer and ComfyKills to Suite profile coordination.
+- ComfyData and ComfyDataVault remain independent background services and are intentionally not profile-switched.
+
+
 ## 0.2 Beta – 27.09.2026
 - Fixed Background opacity so 0% fully removes the Comfy window background while the border can remain.
 - Aligned the shared Load / copy control with its profile dropdown.
